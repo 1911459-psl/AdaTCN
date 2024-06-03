@@ -20,11 +20,16 @@ pip install -r requirements.txt
 
    这里论文通过脚本文件运行，你可以在scripts文件夹里看到四个.sh文件。
 
-   如果你需要运行ETTh2数据集，你可以在终端输入：
+   如果你需要运行ETTh2数据集，你可以在终端输入（MacOS或Linux）：
 
 
 ```
 sh ./scripts/ETTh2.sh
+```
+   如果你是windows环境，请先下载git，然后执行以下命令：
+   
+```
+./scripts/ETTh2.sh
 ```
 
 ## 温馨提示
